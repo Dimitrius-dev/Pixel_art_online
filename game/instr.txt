@@ -1,0 +1,2 @@
+terminal: pyinstaller --name="MyApplication" --windowed --onefile main.py
+if errors: change like this "import psycopg2" -> "from psycopg2 import connect"
