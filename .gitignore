@@ -1,1 +1,3 @@
-config.py
+server_game/config.py
+game/config.py
+telegram_bot/config.py
