@@ -61,9 +61,9 @@ class Ui_Dialog1(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.label.setText(_translate("Dialog", "name of server"))
-        self.label_2.setText(_translate("Dialog", "password"))
+        Dialog.setWindowTitle(_translate("Dialog", "создание"))
+        self.label.setText(_translate("Dialog", "имя сервера"))
+        self.label_2.setText(_translate("Dialog", "пароль"))
         self.radioButton_25.setText(_translate("Dialog", "25x25"))
         self.radioButton_55.setText(_translate("Dialog", "55x55"))
         self.radioButton_85.setText(_translate("Dialog", "85x85"))

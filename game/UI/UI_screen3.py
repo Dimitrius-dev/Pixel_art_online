@@ -43,6 +43,6 @@ class Ui_Form3(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.pushButton_color.setText(_translate("Form", "color"))
-        self.pushButton_save.setText(_translate("Form", "save"))
-        self.pushButton_exit.setText(_translate("Form", "exit"))
+        self.pushButton_color.setText(_translate("Form", "цвет"))
+        self.pushButton_save.setText(_translate("Form", "сохранить"))
+        self.pushButton_exit.setText(_translate("Form", "выйти"))

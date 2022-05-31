@@ -48,8 +48,7 @@ class Ui_Form1(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.label_game.setText(_translate("Form", "Pixel Art\n"
-"   online"))
-        self.pushButton_enter.setText(_translate("Form", "Enter"))
-        self.label_password.setText(_translate("Form", "password"))
-        self.label_login.setText(_translate("Form", "login"))
+        self.label_game.setText(_translate("Form", "Пиксель Арт"))
+        self.pushButton_enter.setText(_translate("Form", "ввести"))
+        self.label_password.setText(_translate("Form", "пароль"))
+        self.label_login.setText(_translate("Form", "логин"))
