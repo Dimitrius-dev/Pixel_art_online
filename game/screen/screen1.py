@@ -55,9 +55,6 @@ class Authoriz(QMainWindow, Ui_Form1):
         else:
             print("entered success1")
 
-
-
-
         self.client.set_address(self.server_ip, self.server_port)
         if self.client.start():
             print("entered success2")
