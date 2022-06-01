@@ -24,10 +24,6 @@ class Dialog_server(QDialog, Ui_Dialog1):
             return 55
         if self.radioButton_85.isChecked():
             return 85
-        if self.radioButton_125.isChecked():
-            return 125
-        if self.radioButton_250.isChecked():
-            return 250
 
     def get_password(self):
         return self.lineEdit_password.text()

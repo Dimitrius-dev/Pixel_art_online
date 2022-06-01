@@ -38,7 +38,7 @@ class Ui_Form1(object):
         self.login_value.setGeometry(QtCore.QRect(240, 320, 121, 20))
         self.login_value.setObjectName("login_value")
         self.label_status = QtWidgets.QLabel(Form)
-        self.label_status.setGeometry(QtCore.QRect(240, 290, 121, 20))
+        self.label_status.setGeometry(QtCore.QRect(240, 290, 200, 20))
         self.label_status.setText("")
         self.label_status.setObjectName("label_status")
 

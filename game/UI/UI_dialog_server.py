@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'dialog_server.ui'
+# Form implementation generated from reading ui file 'UI_layout/dialog_server.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.6
 #
@@ -47,12 +47,6 @@ class Ui_Dialog1(object):
         self.radioButton_85 = QtWidgets.QRadioButton(self.verticalLayoutWidget)
         self.radioButton_85.setObjectName("radioButton_85")
         self.verticalLayout.addWidget(self.radioButton_85)
-        self.radioButton_125 = QtWidgets.QRadioButton(self.verticalLayoutWidget)
-        self.radioButton_125.setObjectName("radioButton_125")
-        self.verticalLayout.addWidget(self.radioButton_125)
-        self.radioButton_250 = QtWidgets.QRadioButton(self.verticalLayoutWidget)
-        self.radioButton_250.setObjectName("radioButton_250")
-        self.verticalLayout.addWidget(self.radioButton_250)
 
         self.retranslateUi(Dialog)
         self.buttonBox.accepted.connect(Dialog.accept) # type: ignore
@@ -61,11 +55,19 @@ class Ui_Dialog1(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "создание"))
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.label.setText(_translate("Dialog", "имя сервера"))
         self.label_2.setText(_translate("Dialog", "пароль"))
         self.radioButton_25.setText(_translate("Dialog", "25x25"))
         self.radioButton_55.setText(_translate("Dialog", "55x55"))
         self.radioButton_85.setText(_translate("Dialog", "85x85"))
-        self.radioButton_125.setText(_translate("Dialog", "125x125"))
-        self.radioButton_250.setText(_translate("Dialog", "250x250"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Dialog = QtWidgets.QDialog()
+    ui = Ui_Dialog()
+    ui.setupUi(Dialog)
+    Dialog.show()
+    sys.exit(app.exec_())

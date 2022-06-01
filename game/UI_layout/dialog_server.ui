@@ -59,7 +59,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>name of server</string>
+    <string>имя сервера</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -72,7 +72,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>password</string>
+    <string>пароль</string>
    </property>
   </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
@@ -103,20 +103,6 @@
      <widget class="QRadioButton" name="radioButton_85">
       <property name="text">
        <string>85x85</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QRadioButton" name="radioButton_125">
-      <property name="text">
-       <string>125x125</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QRadioButton" name="radioButton_250">
-      <property name="text">
-       <string>250x250</string>
       </property>
      </widget>
     </item>
