@@ -88,9 +88,9 @@ class Network:
 
     def do_read(self) -> str:
         msg_size = self.read(self.msg_head_size)
-        print(f"---msg_size: {msg_size}")
+        # print(f"---msg_size: {msg_size}")
         msg = self.read(int(msg_size))
-        print(f"---msg: {msg}")
+        # print(f"---msg: {msg}")
         return msg
 
 

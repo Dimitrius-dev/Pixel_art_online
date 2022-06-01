@@ -31,8 +31,8 @@ class Authoriz(QMainWindow, Ui_Form1):
         self.timeout_read = 120  # seconds
         self.timeout_conn = 1  # seconds
 
-        self.client = Network()
-        self.client.create(self.msg_size, self.timeout_read, self.timeout_conn)
+        self.client = None
+        # self.client.create(self.msg_size, self.timeout_read, self.timeout_conn)
 
         self.sql_tool = SQL()
 
@@ -41,15 +41,22 @@ class Authoriz(QMainWindow, Ui_Form1):
         pass
 
     def reset(self):
+        self.next_screen = None
         self.label_status.setText("")
 
     def check(self):
+        self.client = Network()
+        self.client.create(self.msg_size, self.timeout_read, self.timeout_conn)
+
         if not self.sql_tool.is_password(self.login_value.text(), self.password_value.text()):
             self.label_status.setText("доступ заблокирован(БД)")
             print("enter blocked")
             return
         else:
             print("entered success1")
+
+
+
 
         self.client.set_address(self.server_ip, self.server_port)
         if self.client.start():

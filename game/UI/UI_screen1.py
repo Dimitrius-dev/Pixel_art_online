@@ -16,7 +16,7 @@ class Ui_Form1(object):
         Form.setObjectName("Form")
         Form.resize(718, 631)
         self.label_game = QtWidgets.QLabel(Form)
-        self.label_game.setGeometry(QtCore.QRect(230, 160, 141, 101))
+        self.label_game.setGeometry(QtCore.QRect(230, 160, 240, 101))
         font = QtGui.QFont()
         font.setFamily("Comic Sans MS")
         font.setPointSize(25)

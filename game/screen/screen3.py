@@ -110,8 +110,8 @@ class Paint(QMainWindow, Ui_Form3):
             while True:
                 # print("reading")
                 msg = self.client.do_read()
-                # print("length: ", len(msg))
-                # print(msg)
+                print("length: ", len(msg))
+                print("msg", msg)
                 self.parse(msg)
                 # time.sleep(0.2)
         except Exception as ex:
