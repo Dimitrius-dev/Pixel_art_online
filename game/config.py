@@ -1,7 +1,7 @@
-host_server = "45.143.136.111" # "192.168.100.5" #
+host_server = "192.168.100.1" #
 port_server = 8081
 
-host_db = "45.143.136.111"
-user = "pixelartbot"
-password = "12qeadzc"
-db_name = "pixelart"
+host_db = "192.168.100.1"
+user = "bot"
+password = "pswd"
+db_name = "db_name"
